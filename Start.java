@@ -38,6 +38,12 @@ public class Start {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		JButton button=new JButton(image); 
+		frame.getContentPane().setLayout(null); 
+		frame.getContentPane().add(button); 
+		button.setBounds(0,0,300,200);
+		frame.setVisible(true); 
+		frame.setResizable(false);
 	}
 
 }
